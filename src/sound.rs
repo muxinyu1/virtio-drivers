@@ -773,6 +773,7 @@ bitflags! {
 }
 
 bitflags! {
+    /// TODO
     pub struct PcmFeatures: u32 {
         /// TODO
         const VIRTIO_SND_PCM_F_SHMEM_HOST = 1 << 0;
@@ -788,6 +789,7 @@ bitflags! {
 }
 
 bitflags! {
+    /// TODO
     pub struct PcmFormats: u64 {
         /* analog formats (width / physical width) */
         /// TODO
@@ -879,6 +881,7 @@ impl Into<u8> for PcmFormats {
 }
 
 bitflags! {
+    /// TODO
     pub struct PcmRate: u64 {
         /// TODO
         const VIRTIO_SND_PCM_RATE_5512 = 1 << 0;
